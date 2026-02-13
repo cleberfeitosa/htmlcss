@@ -1,0 +1,49 @@
+/* Define o corpo da página com uma fonte padrão e margens */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fonte */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo das seções da página */
+section {
+    margin-bottom: 20px; /* Espaçamento inferior entre seções */
+    padding: 10px; /* Espaçamento interno das seções */
+    border: 1px solid #ccc; /* Borda de 1px cinza ao redor das seções */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #f1f1f1; /* Cor de fundo do rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    position: relative; /* Posicionamento relativo ao documento */
+    bottom: 0; /* Posiciona o rodapé no fundo */
+    width: 100%; /* Largura total do rodapé */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    /* Quando a largura da tela é menor que 600px */
+    header, footer {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+
+    section {
+        font-size: 12px; /* Reduz o tamanho da fonte das seções */
+    }
+}
